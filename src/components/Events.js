@@ -26,7 +26,7 @@ const Events = () => {
     const fetchEvents = async () => {
       try {
         const tokenResponse = await axios.post(tokenOptions.url, tokenOptions.data, { headers: tokenOptions.headers });
-        const token = tokenResponse.data.access_token;
+        const token = tokenResponse.data.id_token;
 
        
         const response = await axios.get(`${process.env.REACT_APP_API_URL}/events`, {
