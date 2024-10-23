@@ -72,9 +72,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### ENV File
 
 REACT_APP_AUTH0_DOMAIN=
+
 REACT_APP_AUTH0_CLIENT_ID=
+
 REACT_APP_API_URL=
+
 REACT_APP_DOMAIN_URL=
+
 REACT_APP_CLIENT_ID=
+
 REACT_APP_CLIENT_SECRET=
+
 REACT_APP_AUDIENCE_URL=
